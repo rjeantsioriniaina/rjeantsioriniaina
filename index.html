@@ -1,84 +1,121 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- Titre optimisé -->
-    <title>Découvrez nos Offres Exclusives : Produits & Services à la Pointe de l'Innovation</title>
+    <title>Offres Exclusives : Produits & Services Innovants</title>
 
     <!-- Description SEO optimisée -->
-    <meta name="description" content="Bienvenue sur notre site où nous mettons à votre disposition une sélection unique de produits et services conçus pour répondre à vos besoins. Que vous soyez à la recherche de gadgets technologiques, d'outils professionnels ou de services de qualité, nous avons ce qu'il vous faut. Profitez de nos offres exclusives et bénéficiez de recommandations personnalisées pour un shopping intelligent et efficace. Ne ratez pas nos promotions spéciales et nos avis clients pour des achats en toute confiance.">
+    <meta name="description" content="Découvrez une sélection unique de produits et services adaptés à vos besoins. Profitez d'offres exclusives, de recommandations personnalisées, et de promotions spéciales pour un shopping intelligent et efficace.">
 
     <!-- Mots-clés SEO -->
     <meta name="keywords" content="produits, services, gadgets, formation trading, robot trading, stratégies scalping, avis clients, promotions, achat en ligne, innovation, qualité">
-    
-    <!-- Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Directive d'indexation -->
+    <meta name="robots" content="index, follow">
+
+    <!-- Lien vers votre fichier CSS externe -->
+    <link rel="stylesheet" href="css/style.css?v=2.0">
+
+    <!-- Lien pour Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS via unpkg -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXXXXX');
+    </script>
 </head>
+
 <body>
-
-     <header>
-        <h1>Découvrez nos Offres Exclusives : Produits & Services à la Pointe de l'Innovation</h1>
-        <p>Bienvenue sur notre site où nous mettons à votre disposition une sélection unique de produits et services conçus pour répondre à vos besoins. Que vous soyez à la recherche de gadgets technologiques, d'outils professionnels ou de services de qualité, nous avons ce qu'il vous faut. Profitez de nos offres exclusives et bénéficiez de recommandations personnalisées pour un shopping intelligent et efficace. Ne ratez pas nos promotions spéciales et nos avis clients pour des achats en toute confiance</p>
-     </header>
-    
-    <!-- Conteneur global centré -->
-    <div class="container">
-        <main>
-            <!-- Produit Trading -->
-            <section class="product" data-category="trading">
-                <div class="row">
-                    <!-- Colonne pour l'image -->
-                    <div class="col-md-6">
-                        <h2 class="text-center">Formation complète en ligne au TRADING</h2>
-                        <img src="images/image-produit1.jpg" alt="Formation complète en ligne au TRADING" class="img-fluid rounded">
-                    </div>
-                    <!-- Colonne pour le texte et le bouton -->
-                    <div class="col-md-6">
-                        <p>INFINITY : Formation accélérée aux outils et méthodes professionnels : Carnet d'ordres ; Analyse fondamentale ; Analyse technique ; Market Profile ; Psychologie & MoneyManagement ; Plateforme de Trading.</p>
-                        <a href="https://1tpe.net/goto.php?dat=jeanr_swissta_1&tk=" class="btn btn-primary">Acheter maintenant</a>
-                    </div>
+    <!-- Header -->
+    <header class="bg-light py-3">
+        <div class="container">
+            <h1 class="text-center">Formation Trading & Produits Innovants</h1>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+                        <li class="nav-item"><a class="nav-link" href="professionnel/formation-trading.html">Formation Trading</a></li>
+                        <li class="nav-item"><a class="nav-link" href="sante/maigrir.html">Maigrir</a></li>
+                        <li class="nav-item"><a class="nav-link" href="internet/copier-coller.html">Copier-Coller</a></li>
+                    </ul>
                 </div>
-            </section>
+            </nav>
+        </div>
+    </header>
 
-            <!-- Autres produits... -->
+    <!-- Titre et description de la page -->
+    <main class="container my-5">
+        <!-- Section d'introduction -->
+        <section class="mb-5">
+            <h2 class="text-center">Découvrez nos Offres Exclusives</h2>
+            <p class="lead text-center">Bienvenue sur notre site où nous mettons à votre disposition une sélection unique de produits et services. Que vous soyez à la recherche de gadgets technologiques, de formations professionnelles ou de services de qualité, nous avons ce qu'il vous faut.</p>
+        </section>
 
-        </main>
-    </div>
+        <!-- Aperçu du produit principal -->
+        <section class="text-center mb-5">
+            <h2>Formation Trading Complète</h2>
+            <img src="images/produit1.jpg" alt="Formation Trading" class="img-fluid rounded mb-3" />
+            <p class="lead">Apprenez les bases du trading ainsi que les techniques avancées pour prendre des décisions éclairées dans les marchés financiers.</p>
+            <a href="lien_affiliation" class="btn btn-primary">Acheter maintenant</a>
+        </section>
 
-    <!-- Section Témoignages -->
-            <section id="testimonials">
-                <h2 class="text-center">Témoignages de Clients</h2>
-                <div class="row">
-                    <!-- Témoignage 1 -->
-                    <div class="col-md-6">
-                        <div class="testimony">
-                            <img src="images/temoignage1.jpg" alt="Témoignage Client" class="img-fluid rounded">
-                            <div>
-                                <p class="name font-weight-bold">Jean Dupont</p>
-                                <p class="text-muted">"C'est le meilleur produit que j'ai jamais acheté! Je le recommande vivement à tout le monde."</p>
-                            </div>
+        <!-- Section d'abonnement -->
+        <section class="mb-5">
+            <h2 class="text-center">Restez informé</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="emailForm" action="https://formspree.io/f/xblrezwl" method="POST">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Votre e-mail :</label>
+                            <input type="email" id="email" name="email" class="form-control" required>
                         </div>
-                    </div>
-                    <!-- Témoignage 2 -->
-                    <div class="col-md-6">
-                        <div class="testimony">
-                            <img src="images/temoignage2.jpg" alt="Témoignage Client" class="img-fluid rounded">
-                            <div>
-                                <p class="name font-weight-bold">Marie Durand</p>
-                                <p class="text-muted">"Un service incroyable et des produits de qualité. Très satisfait!"</p>
-                            </div>
+                        <div class="form-check mb-3">
+                            <input type="checkbox" id="consent" name="consent" class="form-check-input" required>
+                            <label for="consent" class="form-check-label">Je consens à recevoir des e-mails de votre part.</label>
                         </div>
-                    </div>
+                        <button type="submit" class="btn btn-primary w-100">S'abonner</button>
+                    </form>
                 </div>
-            </section>
-        </main>
-    </div>
+            </div>
+        </section>
 
+        <!-- Filtre de catégories -->
+        <section class="text-center">
+            <h2>Catégories de Produits</h2>
+            <div class="d-flex justify-content-center flex-wrap">
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="All"><i class="fas fa-th"></i> Tous</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="PROFESSIONELS"><i class="fas fa-briefcase"></i> Professionnels</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="SANTE-BEAUTE-NATURE"><i class="fas fa-leaf"></i> Santé & Beauté</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="MAISON"><i class="fas fa-home"></i> Maison</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="INFORMATIQUE"><i class="fas fa-laptop"></i> Informatique</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="INTERNET"><i class="fas fa-wifi"></i> Internet</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="ARGENT"><i class="fas fa-dollar-sign"></i> Argent & Travail</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="JEUX"><i class="fas fa-gamepad"></i> Jeux & Divertissement</button>
+                <button class="btn btn-outline-primary mx-2 my-2" data-category="CULTURE"><i class="fas fa-book"></i> Culture</button>
+            </div>
+        </section>
+    </main>
 
-    <!-- Bootstrap JS, Popper.js, and jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->
+    <footer class="bg-light py-4 mt-5">
+        <div class="container text-center">
+            <p>&copy; 2024 NosProduits. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Script Bootstrap JS -->
+    <script src="https://unpkg.com/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
